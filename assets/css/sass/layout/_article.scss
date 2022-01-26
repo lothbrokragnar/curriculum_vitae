@@ -1,0 +1,28 @@
+.article__container {
+    width: 100%;
+
+    .article__title {
+        font-size: $xx-large;
+        font-weight: $weight-black;
+        margin-bottom: 10%;
+    }
+
+    .article__education-container {
+        margin: 10% 0;
+
+        .article__institution {
+            font-size: $x-large;
+            font-weight: $weight-bold;
+        }
+
+        .article__year {
+            font-size: $x-large;
+        }
+
+        .article__program {
+            color: $secondary;
+            font-size: $medium;
+            font-weight: $weight-light;
+        }
+    }
+}

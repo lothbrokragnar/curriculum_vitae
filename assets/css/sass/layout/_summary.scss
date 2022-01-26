@@ -1,0 +1,28 @@
+.summary__container{
+    .summary__title{
+        font-size: $xx-large;
+        font-weight: $weight-black;
+        margin-bottom: 10%;
+    }
+    .summary__job-container{
+        .summary__job{
+            font-size: $x-large;
+            font-weight: $weight-bold;
+        }
+        .summary__occupation{
+            font-size: $large;
+            align-self: center;
+        }
+        .summary__year{
+            font-size: $large;
+            align-self: center;
+        }
+        .summary__description{
+            font-size: $medium;
+            color: $secondary;
+            font-weight: $weight-light;
+            margin-top: 4%;
+            margin-bottom: 10%;
+        }
+    }
+}

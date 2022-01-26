@@ -1,0 +1,20 @@
+.section__container{
+    width: 100%;
+    .section__title{
+        font-size: $xx-large;
+        font-weight: $weight-black;
+        margin-bottom: 10%;
+    }
+    .section__skill-container{
+            margin-bottom: 10%;
+        .section__skill-title{
+            font-size: $x-large;
+            font-weight: $weight-bold;
+            margin-bottom: 5%;
+        }
+        .section__skill{
+            color: $secondary;
+            font-size: $medium;
+        }
+    }
+}

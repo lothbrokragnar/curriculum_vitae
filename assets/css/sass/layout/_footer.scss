@@ -1,0 +1,23 @@
+.footer__container{
+    .footer__title{
+        font-size: $xx-large;
+        font-weight: $weight-black;
+        margin-bottom: 3%;
+    }
+    .footer__paragraph{
+        color: $secondary;
+        font-size: $medium;
+        font-weight: $weight-regular;
+    }
+    .footer__forms-container{
+        margin: 5% 0;
+        .footer__forms{
+            font-size: $medium;
+            font-weight: $weight-bold;
+        }
+        .footer__input{
+            font-size: $small;
+            font-weight: $weight-light;
+        }
+    }
+}
